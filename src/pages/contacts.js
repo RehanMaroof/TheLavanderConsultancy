@@ -1,4 +1,4 @@
-import { AppConfig } from "@/Config/AppConfig";
+
 import { Images } from "@/Constants";
 import {
   Box,
@@ -88,7 +88,7 @@ const Contacts = () => {
 
     try {
       const { data } = await axios.post(
-        `${AppConfig.API_ENDPOINT}/contact`,
+        `/api/contact`,
         callBackData
       );
       console.log(data);
