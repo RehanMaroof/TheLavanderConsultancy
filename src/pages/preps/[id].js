@@ -24,7 +24,7 @@ const Prep = () => {
   const title = `${prep.title} | The Lavander Consultancy`;
   const description = `${prep.title} is course available for free by ${prep.credit} - The Lavander Consultancy`;
   const keywords =
-    "test preparation, IELTS, TOEFL, Duolingo, courses, online courses, study abroad, free courses";
+    "test preparation, IELTS Academic, TOEFL iBT, PTE Academic, Cambridge English, OET, Duolingo, courses, online courses, study abroad, free courses";
   const url = `https://thelavanderconsultancy.com/preps/${prep._id}`;
   const image = prep.poster;
 

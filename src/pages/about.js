@@ -148,9 +148,8 @@ const about = () => {
             self-discovering, empowering journey with The Lavander Consultancy?
           </Text>
           <Text fontWeight="normal">
-            We are a non-profit organization that provides free guidance and
-            support to students seeking to study abroad. Our mission is to help
-            every student achieve their full potential by providing them with
+             Our mission is to help every student achieve their full potential by
+             providing them with
             the resources and mentorship they need to pursue their education and
             career goals on an international level.
             <br />

@@ -4,6 +4,8 @@ import axios from "axios";
 import Head from "next/head";
 import Link from "next/link";
 import { FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import Omer from "../../Assets/Images/omer.jpg";
+import Rehan from "../../Assets/Images/rehan.jpg";
 
 const index = () => {
   const title = "Our Mentor | The Lavander Consultancy";
@@ -59,7 +61,7 @@ const index = () => {
               color="gray.700"
               as={"h1"}
             >
-              Sagar Likha -Admission Guru
+              Muhammad Omer 
             </Text>
             <Text mb={6} fontSize={{ base: "sm", md: "md" }} color="gray.500">
               As the Managing Director of The Lavander Consultancy, I bring over a decade
@@ -74,12 +76,12 @@ const index = () => {
               aspiring tech professionals with the skills and knowledge
               necessary to succeed in today &apos;s competitive job market.
             </Text>
-            <Link href="https://wa.me/+919821380110">
+            <Link href="https://wa.me/+447576390638">
               <Button colorScheme="teal" size="md" leftIcon={<FaWhatsapp />}>
                 WhatsApp
               </Button>
             </Link>
-            <Link href="tel:+919821380110">
+            <Link href="tel:+447576390638">
               <Button ml={4} size="md">
                 Contact
               </Button>
@@ -87,8 +89,8 @@ const index = () => {
           </Box>
 
           <Image
-            src="https://res.cloudinary.com/dltkycv3q/image/upload/v1682328645/Sagr_Likha_zlrkul.png"
-            alt="Nilesh Mishra"
+            src={Omer.src}
+            alt="Muhammad Omer"
             w={{ base: "100%", md: "auto" }}
             h={{ base: "auto", md: "450px" }}
             objectFit="cover"
@@ -111,8 +113,7 @@ const index = () => {
         >
           <Box flexShrink={0}>
             <Image
-              src="https://res.cloudinary.com/dltkycv3q/image/upload/v1676790441/Nilesh_Photo_tysumx.jpg"
-              alt="Nilesh Mishra"
+              src={Rehan.src}
               w={{ base: "100%", md: "auto" }}
               h={{ base: "auto", md: "450px" }}
               objectFit="cover"
@@ -129,7 +130,7 @@ const index = () => {
               color="gray.700"
               as={"h1"}
             >
-              Nilesh Mishra -Admission Guru
+              Rehan Maroof
             </Text>
             <Text mb={6} fontSize={{ base: "sm", md: "md" }} color="gray.500">
               GRE - 316, Master’s in Business Analytics and Project Management
@@ -137,17 +138,17 @@ const index = () => {
               Scholarship and 50% scholarship in UTD Texas.
             </Text>
             <Text mb={6} fontSize={{ base: "sm", md: "md" }} color="gray.500">
-              Nilesh is an experienced admission guru who has helped numerous
+              Rehan is an experienced admission guru who has helped numerous
               students achieve their dreams of studying abroad. He has a proven
               track record of success and is dedicated to helping students every
               step of the way.
             </Text>
-            <Link href="https://wa.me/+17328616559">
+            <Link href="https://wa.me/+923175781316">
               <Button colorScheme="teal" size="md" leftIcon={<FaWhatsapp />}>
                 WhatsApp
               </Button>
             </Link>
-            <Link href="tel:+17328616559">
+            <Link href="tel:+923175781316">
               <Button ml={4} size="md">
                 Contact
               </Button>

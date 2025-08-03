@@ -259,22 +259,28 @@ const Analysis = () => {
           <Stack spacing={4} mt="5">
             <Grid flexGrow={1} flexDir="column" gap={4}>
               <GridItem direction="row">
-                <HStack spacing={"150px"}>
+                <HStack spacing={"120px"}>
                   <Radio value="1" bgColor={"white"}>
-                    Duolingo
+                    IELTS Academic
                   </Radio>
                   <Radio value="2" bgColor={"white"}>
-                    IELTS
+                    TOEFL iBT
+                  </Radio>
+                  <Radio value="3" bgColor={"white"}>
+                    PTE Academic
                   </Radio>
                 </HStack>
               </GridItem>
               <GridItem direction="row">
-                <HStack spacing={"150px"}>
-                  <Radio value="1" bgColor={"white"}>
-                    Duolingo
+                <HStack spacing={"120px"}>
+                  <Radio value="4" bgColor={"white"}>
+                    Cambridge English
                   </Radio>
-                  <Radio value="2" bgColor={"white"}>
-                    IELTS
+                  <Radio value="5" bgColor={"white"}>
+                    OET
+                  </Radio>
+                  <Radio value="6" bgColor={"white"}>
+                    Duolingo
                   </Radio>
                 </HStack>
               </GridItem>

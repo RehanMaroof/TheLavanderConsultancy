@@ -38,17 +38,17 @@ import {
 
 const socialLink = [
   {
-    link: "https://facebook.com/thelavanderconsultancy",
+    link: "",
     icon: <AiOutlineFacebook size={30} />,
     colorScheme: "facebook",
   },
   {
-    link: "https://instagram.com/thelavanderconsultancy",
+    link: "http://instagram.com/thelavanderconsultancy/",
     icon: <AiOutlineInstagram size={30} />,
     colorScheme: "purple",
   },
   {
-    link: "https://twitter.com/thelavanderconsultancy",
+    link: "https://x.com/thelavander_",
     icon: <AiOutlineTwitter size={30} />,
     colorScheme: "twitter",
   },
@@ -58,7 +58,7 @@ const socialLink = [
     colorScheme: "red",
   },
   {
-    link: "https://wa.me/+17328616559",
+    link: "https://wa.me/+447576390638",
     icon: <AiOutlineWhatsApp size={30} />,
     colorScheme: "whatsapp",
   },
@@ -185,7 +185,7 @@ const Contacts = () => {
                   <AiOutlinePhone size={20} />
                 </Center>
                 <Text color={"white"} fontSize="14">
-                  +1-860-209-8792
+                +44 7576 390638
                 </Text>
               </Flex>
 
@@ -194,7 +194,7 @@ const Contacts = () => {
                   <AiOutlineWhatsApp size={20} />
                 </Center>
                 <Text color={"white"} fontSize="14">
-                  +1 732-861-6559
+                +44 7576 390638
                 </Text>
               </Flex>
             </Stack>
