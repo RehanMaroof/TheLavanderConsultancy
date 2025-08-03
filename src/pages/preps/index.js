@@ -338,7 +338,7 @@ const PrepsPage = () => {
             Test Preparation
           </Heading>
           <Text color="gray.600" mb="6">
-            Prepare yourself for language proficiency tests with The Lavander Consultancy's dedicated test preparation services. 
+            Prepare yourself for language proficiency tests with The Lavander Consultancy&apos;s dedicated test preparation services. 
             Achieve high scores in language proficiency tests such as IELTS and PTE with our specialized preparation courses. 
             We provide thorough training and practice to help you succeed.
           </Text>
@@ -350,7 +350,7 @@ const PrepsPage = () => {
             Conversation Practices
           </Heading>
           <Text color="gray.600">
-            Prepare yourself for language proficiency tests with The Lavander Consultancy's dedicated test preparation services. 
+            Prepare yourself for language proficiency tests with The Lavander Consultancy&apos;s dedicated test preparation services. 
             Achieve high scores in language proficiency tests such as IELTS and PTE with our specialized preparation courses. 
             We provide thorough training and practice to help you succeed.
           </Text>

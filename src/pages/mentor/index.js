@@ -114,6 +114,7 @@ const index = () => {
           <Box flexShrink={0}>
             <Image
               src={Rehan.src}
+              alt="Rehan - Mentor at The Lavander Consultancy"
               w={{ base: "100%", md: "auto" }}
               h={{ base: "auto", md: "450px" }}
               objectFit="cover"
